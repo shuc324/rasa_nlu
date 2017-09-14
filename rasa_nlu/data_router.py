@@ -193,9 +193,8 @@ class DataRouter(object):
         if alias not in self.model_store:
             try:
                 self.model_store[alias] = self.__interpreter_for_model(model_path=alias)
-            except Exception as e:
+            except Exception as _:
                 alias = self.DEFAULT_MODEL_NAME
-                logger.info("No model found with alias '{}'. Error: {}".format(alias, e))
                 #raise InvalidModelError("No model found with alias '{}'. Error: {}".format(alias, e))
 
         model = self.model_store[alias]
