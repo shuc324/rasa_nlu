@@ -58,5 +58,5 @@
   "language": "zh",
   "path": "./models",
   "data": "./samples/common.json",
-  "mitie_file": "./data/feature_extractor.dat"
+  "mitie_file": "./metadata/feature_extractor.dat"
 }
