@@ -1,9 +1,7 @@
 *~
 *pyc
 dist/
-data/*
-!data/examples
-!data/test
+metadata/*
 docs/_build
 server/
 scala/
