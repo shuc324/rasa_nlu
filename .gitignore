@@ -17,7 +17,6 @@ profile.*
 lastmile_ai/learn/plots/
 *npy
 *#
-/config.json
 *log.json
 .coverage
 .coveralls.yml

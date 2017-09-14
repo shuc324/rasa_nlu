@@ -1,0 +1,62 @@
+{
+  "num_threads": 8,
+  "max_training_processes": 8,
+  "pipeline": [
+    "nlp_mitie",
+    "tokenizer_jieba",
+    "ner_mitie",
+    "ner_synonyms",
+    "intent_entity_featurizer_regex",
+    "intent_featurizer_mitie",
+    "intent_classifier_sklearn"
+  ],
+  "ner_crf": {
+    "BILOU_flag": true,
+    "features": [
+      [
+        "low",
+        "title",
+        "upper",
+        "pos",
+        "pos2"
+      ],
+      [
+        "bias",
+        "low",
+        "word3",
+        "word2",
+        "upper",
+        "title",
+        "digit",
+        "pos",
+        "pos2",
+        "pattern"
+      ],
+      [
+        "low",
+        "title",
+        "upper",
+        "pos",
+        "pos2"
+      ]
+    ],
+    "max_iterations": 50,
+    "L1_c": 1,
+    "L2_c": 1e-3
+  },
+  "intent_classifier_sklearn": {
+    "C": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      100
+    ],
+    "kernel": "linear"
+  },
+  "language": "zh",
+  "path": "./models",
+  "data": "./samples/common.json",
+  "mitie_file": "./data/feature_extractor.dat"
+}
