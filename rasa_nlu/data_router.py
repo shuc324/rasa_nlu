@@ -119,7 +119,6 @@ class DataRouter(object):
         else:
             model_dict = self.config.server_model_dirs
 
-        logger.info(model_dict)
         model_store = {}
 
         for alias, model_path in list(model_dict.items()):
@@ -191,6 +190,7 @@ class DataRouter(object):
 
     def parse(self, data):
         #to support load model by company id
+        logger.info(data)
         if 'c' in data:
             self.config['server_model_dirs'] = data['c']
             self.model_store = self.__create_model_store()
