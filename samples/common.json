@@ -1,0 +1,3777 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "text": "签到",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "修改密码",
+                "intent": "set/password",
+                "entities": []
+            },
+            {
+                "text": "改密码",
+                "intent": "set/password",
+                "entities": []
+            },
+            {
+                "text": "上班",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "修改资料",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "提醒我吃饭",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 5,
+                        "entity": "text",
+                        "value": "吃饭"
+                    }
+                ]
+            },
+            {
+                "text": "我要签到",
+                "intent": "workrecord/sign_in",
+                "entities": []
+            },
+            {
+                "text": "项目",
+                "intent": "project/list",
+                "entities": []
+            },
+            {
+                "text": "我的",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 1,
+                        "entity": "user_id",
+                        "value": "我"
+                    }
+                ]
+            },
+            {
+                "text": "发消息",
+                "intent": "msg/create",
+                "entities": []
+            },
+            {
+                "text": "下班",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "已完成的任务",
+                "intent": "task/list",
+                "entities": []
+            },
+            {
+                "text": "完成的任务",
+                "intent": "task/list",
+                "entities": []
+            },
+            {
+                "text": "打卡",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "绑定手机号",
+                "intent": "set/bind_account",
+                "entities": []
+            },
+            {
+                "text": "打卡记录",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "新建任务",
+                "intent": "task/create",
+                "entities": []
+            },
+            {
+                "text": "退出",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "绑定手机",
+                "intent": "set/bind_account",
+                "entities": []
+            },
+            {
+                "text": "安全",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "历史",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "会话",
+                "intent": "msg/create",
+                "entities": []
+            },
+            {
+                "text": "销售",
+                "intent": "salesteam/list/is_crm",
+                "entities": []
+            },
+            {
+                "text": "密码",
+                "intent": "set/password",
+                "entities": []
+            },
+            {
+                "text": "任务",
+                "intent": "job/list",
+                "entities": []
+            },
+            {
+                "text": "我要打卡",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "签到记录",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "我的任务",
+                "intent": "job/list",
+                "entities": []
+            },
+            {
+                "text": "过期任务",
+                "intent": "task/list",
+                "entities": []
+            },
+            {
+                "text": "查看任务",
+                "intent": "job/list",
+                "entities": []
+            },
+            {
+                "text": "部门",
+                "intent": "group/create",
+                "entities": []
+            },
+            {
+                "text": "同事",
+                "intent": "group/member",
+                "entities": []
+            },
+            {
+                "text": "日报",
+                "intent": "log/list",
+                "entities": []
+            },
+            {
+                "text": "查看日报",
+                "intent": "log/list",
+                "entities": []
+            },
+            {
+                "text": "动态",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "申请",
+                "intent": "shenpi/list",
+                "entities": []
+            },
+            {
+                "text": "打上班卡",
+                "intent": "workrecord/sign_in",
+                "entities": []
+            },
+            {
+                "text": "退出登录",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "发邮件",
+                "intent": "email/alllist",
+                "entities": []
+            },
+            {
+                "text": "冉从江的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "冉从江"
+                    }
+                ]
+            },
+            {
+                "text": "聊天",
+                "intent": "msg/create",
+                "entities": []
+            },
+            {
+                "text": "新建客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "李弦的客户",
+                "intent": "customer/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "版本号",
+                "intent": "set/about",
+                "entities": []
+            },
+            {
+                "text": "查看推事本的版本号",
+                "intent": "set/about",
+                "entities": []
+            },
+            {
+                "text": "手势密码",
+                "intent": "set/safe",
+                "entities": []
+            },
+            {
+                "text": "设定手势密码",
+                "intent": "set/safe",
+                "entities": []
+            },
+            {
+                "text": "清除缓存",
+                "intent": "set/safe",
+                "entities": []
+            },
+            {
+                "text": "修复数据",
+                "intent": "set/safe",
+                "entities": []
+            },
+            {
+                "text": "取消手势密码",
+                "intent": "set/safe",
+                "entities": []
+            },
+            {
+                "text": "修改手势密码",
+                "intent": "set/safe",
+                "entities": []
+            },
+            {
+                "text": "新建销售机会",
+                "intent": "opportunity/create",
+                "entities": []
+            },
+            {
+                "text": "解除手机绑定",
+                "intent": "set/bind_account",
+                "entities": []
+            },
+            {
+                "text": "绑定腾讯微博",
+                "intent": "set/bind_account",
+                "entities": []
+            },
+            {
+                "text": "绑定新浪微博",
+                "intent": "set/bind_account",
+                "entities": []
+            },
+            {
+                "text": "绑定QQ",
+                "intent": "set/bind_account",
+                "entities": []
+            },
+            {
+                "text": "绑定email",
+                "intent": "set/bind_account",
+                "entities": []
+            },
+            {
+                "text": "使用听筒播放语音",
+                "intent": "set/habit",
+                "entities": []
+            },
+            {
+                "text": "在手机日历中显示任务",
+                "intent": "set/habit",
+                "entities": []
+            },
+            {
+                "text": "手机日历",
+                "intent": "set/habit",
+                "entities": []
+            },
+            {
+                "text": "角标",
+                "intent": "set/habit",
+                "entities": []
+            },
+            {
+                "text": "角标设置",
+                "intent": "set/habit",
+                "entities": []
+            },
+            {
+                "text": "查看我的历史记录",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "查看历史记录",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "浏览历史记录",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "创建新客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "创建客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "建立新客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "考勤",
+                "intent": "workrecord/sign_in",
+                "entities": []
+            },
+            {
+                "text": "建立一个新任务",
+                "intent": "task/create",
+                "entities": []
+            },
+            {
+                "text": "新增一个工作记录",
+                "intent": "workrecord/create",
+                "entities": []
+            },
+            {
+                "text": "新增一条工作记录",
+                "intent": "workrecord/create",
+                "entities": []
+            },
+            {
+                "text": "新建工作记录",
+                "intent": "workrecord/create",
+                "entities": []
+            },
+            {
+                "text": "销售机会",
+                "intent": "opportunity/create",
+                "entities": []
+            },
+            {
+                "text": "新增销售机会",
+                "intent": "opportunity/create",
+                "entities": []
+            },
+            {
+                "text": "公告",
+                "intent": "annouce/list",
+                "entities": []
+            },
+            {
+                "text": "发起公告",
+                "intent": "annouce/create",
+                "entities": []
+            },
+            {
+                "text": "发公告",
+                "intent": "annouce/create",
+                "entities": []
+            },
+            {
+                "text": "新建一条公告",
+                "intent": "annouce/create",
+                "entities": []
+            },
+            {
+                "text": "新增公告",
+                "intent": "annouce/create",
+                "entities": []
+            },
+            {
+                "text": "新建公告",
+                "intent": "annouce/create",
+                "entities": []
+            },
+            {
+                "text": "发申请",
+                "intent": "shenpi/create",
+                "entities": []
+            },
+            {
+                "text": "新增申请",
+                "intent": "shenpi/create",
+                "entities": []
+            },
+            {
+                "text": "新建申请",
+                "intent": "shenpi/create",
+                "entities": []
+            },
+            {
+                "text": "发起申请",
+                "intent": "shenpi/create",
+                "entities": []
+            },
+            {
+                "text": "看看同事们都在做什么",
+                "intent": "workboard/info",
+                "entities": []
+            },
+            {
+                "text": "查看工作板",
+                "intent": "workboard/info",
+                "entities": []
+            },
+            {
+                "text": "邓羽浩",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "邓羽浩"
+                    }
+                ]
+            },
+            {
+                "text": "舒超",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "看看邓羽浩的情况",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 5,
+                        "entity": "user_id",
+                        "value": "邓羽浩"
+                    }
+                ]
+            },
+            {
+                "text": "看看舒超的情况",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "看看邓羽浩的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 5,
+                        "entity": "user_id",
+                        "value": "邓羽浩"
+                    }
+                ]
+            },
+            {
+                "text": "看看舒超的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "新增账号",
+                "intent": "mate/create",
+                "entities": []
+            },
+            {
+                "text": "添加账号",
+                "intent": "mate/create",
+                "entities": []
+            },
+            {
+                "text": "新增成员",
+                "intent": "mate/create",
+                "entities": []
+            },
+            {
+                "text": "新增员工",
+                "intent": "mate/create",
+                "entities": []
+            },
+            {
+                "text": "部门调整",
+                "intent": "group/create",
+                "entities": []
+            },
+            {
+                "text": "增加部门",
+                "intent": "group/create",
+                "entities": []
+            },
+            {
+                "text": "建立一个新部门",
+                "intent": "group/create",
+                "entities": []
+            },
+            {
+                "text": "新增部门",
+                "intent": "group/create",
+                "entities": []
+            },
+            {
+                "text": "新建一个部门",
+                "intent": "group/create",
+                "entities": []
+            },
+            {
+                "text": "私密会话",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "flag",
+                        "value": "私密"
+                    }
+                ]
+            },
+            {
+                "text": "私密消息",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "flag",
+                        "value": "私密"
+                    }
+                ]
+            },
+            {
+                "text": "发送私密消息",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "flag",
+                        "value": "私密"
+                    }
+                ]
+            },
+            {
+                "text": "发送秘密消息",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "flag",
+                        "value": "秘密"
+                    }
+                ]
+            },
+            {
+                "text": "新建秘密会话",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "flag",
+                        "value": "秘密"
+                    }
+                ]
+            },
+            {
+                "text": "新建私密会话",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "flag",
+                        "value": "私密"
+                    }
+                ]
+            },
+            {
+                "text": "发起新会话",
+                "intent": "msg/create",
+                "entities": []
+            },
+            {
+                "text": "退出账号",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "管理员设置",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "隐私",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "隐私设置",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "安全设置",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "组织切换",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "切换组织",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "企业管理员设置",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "设置",
+                "intent": "set/detail",
+                "entities": []
+            },
+            {
+                "text": "设定我的邮箱",
+                "intent": "set/info",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "我"
+                    }
+                ]
+            },
+            {
+                "text": "修改我的个人资料",
+                "intent": "set/info",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "我"
+                    }
+                ]
+            },
+            {
+                "text": "修改我的电话号码",
+                "intent": "set/info",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "我"
+                    }
+                ]
+            },
+            {
+                "text": "改电话号码",
+                "intent": "set/info",
+                "entities": []
+            },
+            {
+                "text": "头像",
+                "intent": "set/info",
+                "entities": []
+            },
+            {
+                "text": "改头像",
+                "intent": "set/info",
+                "entities": []
+            },
+            {
+                "text": "改名字",
+                "intent": "set/info",
+                "entities": []
+            },
+            {
+                "text": "修改名字",
+                "intent": "set/info",
+                "entities": []
+            },
+            {
+                "text": "看看李弦的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "日历",
+                "intent": "calendar/detail",
+                "entities": []
+            },
+            {
+                "text": "销售团队",
+                "intent": "salesteam/list/is_crm",
+                "entities": []
+            },
+            {
+                "text": "创建工作计划",
+                "intent": "workplan/create",
+                "entities": []
+            },
+            {
+                "text": "新增工作计划",
+                "intent": "workplan/create",
+                "entities": []
+            },
+            {
+                "text": "工作计划",
+                "intent": "workplan/list",
+                "entities": []
+            },
+            {
+                "text": "我的工作计划",
+                "intent": "workplan/list",
+                "entities": []
+            },
+            {
+                "text": "工作记录列表",
+                "intent": "workplan/list",
+                "entities": []
+            },
+            {
+                "text": "审批",
+                "intent": "shenpi/list",
+                "entities": []
+            },
+            {
+                "text": "审批列表",
+                "intent": "shenpi/list",
+                "entities": []
+            },
+            {
+                "text": "申请列表",
+                "intent": "shenpi/list",
+                "entities": []
+            },
+            {
+                "text": "签退记录",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "考勤记录",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "昨天公告",
+                "intent": "annouce/list",
+                "entities": []
+            },
+            {
+                "text": "上周公告",
+                "intent": "annouce/list",
+                "entities": []
+            },
+            {
+                "text": "我的公告",
+                "intent": "annouce/list",
+                "entities": []
+            },
+            {
+                "text": "历史公告",
+                "intent": "annouce/list",
+                "entities": []
+            },
+            {
+                "text": "创建项目",
+                "intent": "project/create",
+                "entities": []
+            },
+            {
+                "text": "新增项目",
+                "intent": "project/create",
+                "entities": []
+            },
+            {
+                "text": "项目列表",
+                "intent": "project/list",
+                "entities": []
+            },
+            {
+                "text": "延期项目",
+                "intent": "project/list",
+                "entities": []
+            },
+            {
+                "text": "进行中的项目",
+                "intent": "project/list",
+                "entities": []
+            },
+            {
+                "text": "归档项目",
+                "intent": "project/list",
+                "entities": []
+            },
+            {
+                "text": "任务列表",
+                "intent": "task/list",
+                "entities": []
+            },
+            {
+                "text": "进行中的任务",
+                "intent": "task/list",
+                "entities": []
+            },
+            {
+                "text": "工作记录",
+                "intent": "workrecord/list",
+                "entities": []
+            },
+            {
+                "text": "创建销售目标",
+                "intent": "salegoal/create",
+                "entities": []
+            },
+            {
+                "text": "新增销售目标",
+                "intent": "salegoal/create",
+                "entities": []
+            },
+            {
+                "text": "增加销售目标",
+                "intent": "salegoal/create",
+                "entities": []
+            },
+            {
+                "text": "查看销售目标",
+                "intent": "salegoal/list",
+                "entities": []
+            },
+            {
+                "text": "销售目标列表",
+                "intent": "salegoal/list",
+                "entities": []
+            },
+            {
+                "text": "安柳瑾的客户",
+                "intent": "customer/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "安柳瑾"
+                    }
+                ]
+            },
+            {
+                "text": "舒超的客户",
+                "intent": "customer/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "安柳瑾的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "安柳瑾"
+                    }
+                ]
+            },
+            {
+                "text": "舒超的邮件",
+                "intent": "email/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "安柳瑾的邮件",
+                "intent": "email/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "安柳瑾"
+                    }
+                ]
+            },
+            {
+                "text": "查看销售部的同事",
+                "intent": "group/member",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 5,
+                        "entity": "group_id",
+                        "value": "销售部"
+                    }
+                ]
+            },
+            {
+                "text": "查看销售部的成员",
+                "intent": "group/member",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 5,
+                        "entity": "group_id",
+                        "value": "销售部"
+                    }
+                ]
+            },
+            {
+                "text": "销售部项目",
+                "intent": "project/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "销售部"
+                    }
+                ]
+            },
+            {
+                "text": "客户列表",
+                "intent": "customer/alllist",
+                "entities": []
+            },
+            {
+                "text": "全部客户列表",
+                "intent": "customer/alllist",
+                "entities": []
+            },
+            {
+                "text": "安柳瑾的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "安柳瑾"
+                    }
+                ]
+            },
+            {
+                "text": "销售部任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "销售部"
+                    }
+                ]
+            },
+            {
+                "text": "安柳瑾的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "安柳瑾"
+                    }
+                ]
+            },
+            {
+                "text": "销售部工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "销售部"
+                    }
+                ]
+            },
+            {
+                "text": "安柳瑾的文件",
+                "intent": "file/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "安柳瑾"
+                    }
+                ]
+            },
+            {
+                "text": "销售部文件",
+                "intent": "file/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "销售部"
+                    }
+                ]
+            },
+            {
+                "text": "王龙军的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "王龙军"
+                    }
+                ]
+            },
+            {
+                "text": "蒋波的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "蒋波"
+                    }
+                ]
+            },
+            {
+                "text": "看看王龙军的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 5,
+                        "entity": "user_id",
+                        "value": "王龙军"
+                    }
+                ]
+            },
+            {
+                "text": "历史记录",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "舒超的资料",
+                "intent": "workrecord/sign_in",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "邓羽浩的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "邓羽浩"
+                    }
+                ]
+            },
+            {
+                "text": "打考勤",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "舒超的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "我的项目列表",
+                "intent": "project/list",
+                "entities": []
+            },
+            {
+                "text": "elise资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "entity": "user_id",
+                        "value": "elise"
+                    }
+                ]
+            },
+            {
+                "text": "唐莉的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "唐莉"
+                    }
+                ]
+            },
+            {
+                "text": "查看舒超的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "李弦的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "邓宇浩的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "邓宇浩"
+                    }
+                ]
+            },
+            {
+                "text": "修改个人资料",
+                "intent": "set/info",
+                "entities": []
+            },
+            {
+                "text": "清理app缓存",
+                "intent": "set/safe",
+                "entities": []
+            },
+            {
+                "text": "除缓存",
+                "intent": "set/safe",
+                "entities": []
+            },
+            {
+                "text": "牛哥的电话",
+                "intent": "set/info",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "牛哥"
+                    }
+                ]
+            },
+            {
+                "text": "oBlank的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "oBlank"
+                    }
+                ]
+            },
+            {
+                "text": "研发部",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "研发部"
+                    }
+                ]
+            },
+            {
+                "text": "潘建宇的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "潘建宇"
+                    }
+                ]
+            },
+            {
+                "text": "ob最近在做什么",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "ob"
+                    }
+                ]
+            },
+            {
+                "text": "看历史记录",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "app版本号是多少",
+                "intent": "set/about",
+                "entities": []
+            },
+            {
+                "text": "清缓存",
+                "intent": "set/safe",
+                "entities": []
+            },
+            {
+                "text": "李弦的信息",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "钱小龙的电话",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "钱小龙"
+                    }
+                ]
+            },
+            {
+                "text": "oBlank",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "oBlank"
+                    }
+                ]
+            },
+            {
+                "text": "发起会话",
+                "intent": "msg/create",
+                "entities": []
+            },
+            {
+                "text": "我的销售目标列表",
+                "intent": "salegoal/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 1,
+                        "entity": "user_id",
+                        "value": "我"
+                    }
+                ]
+            },
+            {
+                "text": "苏超的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "苏超"
+                    }
+                ]
+            },
+            {
+                "text": "oBlank昨天天纵项目的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 12,
+                        "entity": "project_id",
+                        "value": "天纵项目"
+                    },
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "oBlank"
+                    }
+                ]
+            },
+            {
+                "text": "oBlank昨天容大项目的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 12,
+                        "entity": "project_id",
+                        "value": "容大项目"
+                    },
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "oBlank"
+                    }
+                ]
+            },
+            {
+                "text": "查看项目",
+                "intent": "project/list",
+                "entities": []
+            },
+            {
+                "text": "我的电话",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 1,
+                        "entity": "user_id",
+                        "value": "我"
+                    }
+                ]
+            },
+            {
+                "text": "张帅的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "张帅"
+                    }
+                ]
+            },
+            {
+                "text": "绑定账号",
+                "intent": "set/bind_account",
+                "entities": []
+            },
+            {
+                "text": "我过期的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 1,
+                        "entity": "user_id",
+                        "value": "我"
+                    }
+                ]
+            },
+            {
+                "text": "牛哥的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "牛哥"
+                    }
+                ]
+            },
+            {
+                "text": "新任务",
+                "intent": "task/create",
+                "entities": []
+            },
+            {
+                "text": "绑定",
+                "intent": "set/bind_account",
+                "entities": []
+            },
+            {
+                "text": "王龙军",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "王龙军"
+                    }
+                ]
+            },
+            {
+                "text": "oblank",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "oblank"
+                    }
+                ]
+            },
+            {
+                "text": "苏超的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "苏超"
+                    }
+                ]
+            },
+            {
+                "text": "陈小龙",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "陈小龙"
+                    }
+                ]
+            },
+            {
+                "text": "肖友的待办事项",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "jifeng的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "jifeng"
+                    }
+                ]
+            },
+            {
+                "text": "组织架构",
+                "intent": "group/member",
+                "entities": []
+            },
+            {
+                "text": "查看肖友资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "新项目",
+                "intent": "project/create",
+                "entities": []
+            },
+            {
+                "text": "看看欧强的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "欧强"
+                    }
+                ]
+            },
+            {
+                "text": "后天的任务",
+                "intent": "task/list",
+                "entities": []
+            },
+            {
+                "text": "安流尽的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "安流尽"
+                    }
+                ]
+            },
+            {
+                "text": "新增工作记录",
+                "intent": "workrecord/create",
+                "entities": []
+            },
+            {
+                "text": "邓羽浩的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "邓羽浩"
+                    }
+                ]
+            },
+            {
+                "text": "幕墙的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "幕墙"
+                    }
+                ]
+            },
+            {
+                "text": "帮我查一下苏超的电话",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 7,
+                        "entity": "user_id",
+                        "value": "苏超"
+                    }
+                ]
+            },
+            {
+                "text": "哈哈的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "哈哈"
+                    }
+                ]
+            },
+            {
+                "text": "换头像",
+                "intent": "set/info",
+                "entities": []
+            },
+            {
+                "text": "记录",
+                "intent": "workrecord/list",
+                "entities": []
+            },
+            {
+                "text": "文件列表",
+                "intent": "file/alllist",
+                "entities": []
+            },
+            {
+                "text": "查看文件列表",
+                "intent": "file/alllist",
+                "entities": []
+            },
+            {
+                "text": "销售目标",
+                "intent": "salegoal/list",
+                "entities": []
+            },
+            {
+                "text": "按刘景的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "按刘景"
+                    }
+                ]
+            },
+            {
+                "text": "同事列表",
+                "intent": "group/member",
+                "entities": []
+            },
+            {
+                "text": "彭锋的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "彭锋"
+                    }
+                ]
+            },
+            {
+                "text": "安流景",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "安流景"
+                    }
+                ]
+            },
+            {
+                "text": "张懿最近的工作",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "张懿"
+                    }
+                ]
+            },
+            {
+                "text": "下班儿",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "历史记录列表",
+                "intent": "workrecord/list",
+                "entities": []
+            },
+            {
+                "text": "肖友",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "查看工作吧",
+                "intent": "workboard/info",
+                "entities": []
+            },
+            {
+                "text": "新会话",
+                "intent": "msg/create",
+                "entities": []
+            },
+            {
+                "text": "我的销售目标",
+                "intent": "salegoal/list",
+                "entities": []
+            },
+            {
+                "text": "修改我的名字",
+                "intent": "set/info",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "我"
+                    }
+                ]
+            },
+            {
+                "text": "我的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 1,
+                        "entity": "user_id",
+                        "value": "我"
+                    }
+                ]
+            },
+            {
+                "text": "查看潘建宇的情况",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 5,
+                        "entity": "user_id",
+                        "value": "潘建宇"
+                    }
+                ]
+            },
+            {
+                "text": "关于",
+                "intent": "set/about",
+                "entities": []
+            },
+            {
+                "text": "部门成员",
+                "intent": "group/member",
+                "entities": []
+            },
+            {
+                "text": "成员",
+                "intent": "group/member",
+                "entities": []
+            },
+            {
+                "text": "欧强的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "欧强"
+                    }
+                ]
+            },
+            {
+                "text": "开始计时",
+                "intent": "kaoqin/list",
+                "entities": []
+            },
+            {
+                "text": "明天的任务",
+                "intent": "task/list",
+                "entities": []
+            },
+            {
+                "text": "查看欧强的详情",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "欧强"
+                    }
+                ]
+            },
+            {
+                "text": "查看舒超的详情",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "查看Tom的详情",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 5,
+                        "entity": "user_id",
+                        "value": "Tom"
+                    }
+                ]
+            },
+            {
+                "text": "查看徐思源的详情",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 5,
+                        "entity": "user_id",
+                        "value": "徐思源"
+                    }
+                ]
+            },
+            {
+                "text": "帅李微微骁勇，邓宇浩，欧强，潘建宇，李贤，全体成员，产品开发部，张艺，苏超，礼物？真景真小贤",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "李微微"
+                    },
+                    {
+                        "start": 4,
+                        "end": 17,
+                        "entity": "user_id",
+                        "value": "骁勇，邓宇浩，欧强，潘建宇"
+                    },
+                    {
+                        "start": 18,
+                        "end": 20,
+                        "entity": "user_id",
+                        "value": "李贤"
+                    },
+                    {
+                        "start": 32,
+                        "end": 34,
+                        "entity": "user_id",
+                        "value": "张艺"
+                    },
+                    {
+                        "start": 35,
+                        "end": 46,
+                        "entity": "user_id",
+                        "value": "苏超，礼物？真景真小贤"
+                    }
+                ]
+            },
+            {
+                "text": "查看潘建宇，的详情",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "潘建宇，"
+                    }
+                ]
+            },
+            {
+                "text": "吕武的项目",
+                "intent": "project/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "吕武"
+                    }
+                ]
+            },
+            {
+                "text": "向颖的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "向颖"
+                    }
+                ]
+            },
+            {
+                "text": "张吉峰的资料",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "张吉峰"
+                    }
+                ]
+            },
+            {
+                "text": "女巫的工作计划",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "女巫"
+                    }
+                ]
+            },
+            {
+                "text": "刘羽展的工作计划",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "刘羽展"
+                    }
+                ]
+            },
+            {
+                "text": "周小华的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "周小华"
+                    }
+                ]
+            },
+            {
+                "text": "TOM的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "TOM"
+                    }
+                ]
+            },
+            {
+                "text": "蒋波的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "蒋波"
+                    }
+                ]
+            },
+            {
+                "text": "徐思源的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "徐思源"
+                    }
+                ]
+            },
+            {
+                "text": "杨雪儿的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "杨雪儿"
+                    }
+                ]
+            },
+            {
+                "text": "李小龙的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "李小龙"
+                    }
+                ]
+            },
+            {
+                "text": "王芸的任务",
+                "intent": "task/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "王芸"
+                    }
+                ]
+            },
+            {
+                "text": "王浩的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "王浩"
+                    }
+                ]
+            },
+            {
+                "text": "市场部的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "市场部"
+                    }
+                ]
+            },
+            {
+                "text": "市场部的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "市场部"
+                    }
+                ]
+            },
+            {
+                "text": "产品部的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "产品部"
+                    }
+                ]
+            },
+            {
+                "text": "销售部的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "销售部"
+                    }
+                ]
+            },
+            {
+                "text": "李瑜的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "李瑜"
+                    }
+                ]
+            },
+            {
+                "text": "舒超的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "产品研发部的成员列表",
+                "intent": "group/member",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "entity": "group_id",
+                        "value": "产品研发部"
+                    }
+                ]
+            },
+            {
+                "text": "运营部资料",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "运营部"
+                    }
+                ]
+            },
+            {
+                "text": "产品部资料",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "产品部"
+                    }
+                ]
+            },
+            {
+                "text": "市场部资料",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "市场部"
+                    }
+                ]
+            },
+            {
+                "text": "市场部",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "市场部"
+                    }
+                ]
+            },
+            {
+                "text": "产品部",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "产品部"
+                    }
+                ]
+            },
+            {
+                "text": "龚诗奥的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "龚诗奥"
+                    }
+                ]
+            },
+            {
+                "text": "产品研发部",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "entity": "group_id",
+                        "value": "产品研发部"
+                    }
+                ]
+            },
+            {
+                "text": "收件箱",
+                "intent": "email/alllist",
+                "entities": []
+            },
+            {
+                "text": "已收到的邮件",
+                "intent": "email/alllist",
+                "entities": []
+            },
+            {
+                "text": "email",
+                "intent": "email/alllist",
+                "entities": []
+            },
+            {
+                "text": "工作板web",
+                "intent": "workboard/info",
+                "entities": []
+            },
+            {
+                "text": "查看工作记录",
+                "intent": "workrecord/list",
+                "entities": []
+            },
+            {
+                "text": "新建项目",
+                "intent": "project/create",
+                "entities": []
+            },
+            {
+                "text": "建项目",
+                "intent": "project/create",
+                "entities": []
+            },
+            {
+                "text": "加项目",
+                "intent": "project/create",
+                "entities": []
+            },
+            {
+                "text": "增加项目",
+                "intent": "project/create",
+                "entities": []
+            },
+            {
+                "text": "添加项目",
+                "intent": "project/create",
+                "entities": []
+            },
+            {
+                "text": "添项目",
+                "intent": "project/create",
+                "entities": []
+            },
+            {
+                "text": "提醒我明天下午3点开会",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 11,
+                        "entity": "text",
+                        "value": "明天下午3点开会"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我开会",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 5,
+                        "entity": "text",
+                        "value": "开会"
+                    }
+                ]
+            },
+            {
+                "text": "肖友的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "张吉峰的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "张吉峰"
+                    }
+                ]
+            },
+            {
+                "text": "李弦的工作记录",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "肖友的工作情况",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "张吉峰的工作情况",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "张吉峰"
+                    }
+                ]
+            },
+            {
+                "text": "李弦工作情况",
+                "intent": "workrecord/list",
+                "entities": []
+            },
+            {
+                "text": "舒超的工作",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "冉从江的工作",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "冉从江"
+                    }
+                ]
+            },
+            {
+                "text": "冉从江的工作情况",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "冉从江"
+                    }
+                ]
+            },
+            {
+                "text": "张帅的工作情况",
+                "intent": "workrecord/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "张帅"
+                    }
+                ]
+            },
+            {
+                "text": "新公告",
+                "intent": "annouce/create",
+                "entities": []
+            },
+            {
+                "text": "发布公告",
+                "intent": "annouce/create",
+                "entities": []
+            },
+            {
+                "text": "建个公告",
+                "intent": "annouce/create",
+                "entities": []
+            },
+            {
+                "text": "查看公告",
+                "intent": "annouce/list",
+                "entities": []
+            },
+            {
+                "text": "看看公告",
+                "intent": "annouce/list",
+                "entities": []
+            },
+            {
+                "text": "公司公告",
+                "intent": "annouce/list",
+                "entities": []
+            },
+            {
+                "text": "查看公司公告",
+                "intent": "annouce/list",
+                "entities": []
+            },
+            {
+                "text": "我的日历",
+                "intent": "calendar/detail",
+                "entities": []
+            },
+            {
+                "text": "查看日历",
+                "intent": "calendar/detail",
+                "entities": []
+            },
+            {
+                "text": "看看日历",
+                "intent": "calendar/detail",
+                "entities": []
+            },
+            {
+                "text": "我的客户",
+                "intent": "customer/alllist",
+                "entities": []
+            },
+            {
+                "text": "新增客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "新客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "新建一个客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "新增一个客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "增加一个客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "增加客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "填写客户",
+                "intent": "customer/create",
+                "entities": []
+            },
+            {
+                "text": "邮件",
+                "intent": "email/alllist",
+                "entities": []
+            },
+            {
+                "text": "我的邮件",
+                "intent": "email/alllist",
+                "entities": []
+            },
+            {
+                "text": "新邮件",
+                "intent": "email/alllist",
+                "entities": []
+            },
+            {
+                "text": "收邮件",
+                "intent": "email/alllist",
+                "entities": []
+            },
+            {
+                "text": "看邮件",
+                "intent": "email/alllist",
+                "entities": []
+            },
+            {
+                "text": "潘建宇",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "潘建宇"
+                    }
+                ]
+            },
+            {
+                "text": "张芊艺",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "张芊艺"
+                    }
+                ]
+            },
+            {
+                "text": "常迪",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "常迪"
+                    }
+                ]
+            },
+            {
+                "text": "打电话给税刚",
+                "intent": "mate/detail",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "税刚"
+                    }
+                ]
+            },
+            {
+                "text": "clendar",
+                "intent": "calendar/detail",
+                "entities": []
+            },
+            {
+                "text": "新建部门",
+                "intent": "group/create",
+                "entities": []
+            },
+            {
+                "text": "新部门",
+                "intent": "group/create",
+                "entities": []
+            },
+            {
+                "text": "增加一个部门",
+                "intent": "group/create",
+                "entities": []
+            },
+            {
+                "text": "行政部",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "行政部"
+                    }
+                ]
+            },
+            {
+                "text": "道格腾",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "道格腾"
+                    }
+                ]
+            },
+            {
+                "text": "后台开发组",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "entity": "group_id",
+                        "value": "后台开发组"
+                    }
+                ]
+            },
+            {
+                "text": "运维实施组",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "entity": "group_id",
+                        "value": "运维实施组"
+                    }
+                ]
+            },
+            {
+                "text": "前端一组",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "entity": "group_id",
+                        "value": "前端一组"
+                    }
+                ]
+            },
+            {
+                "text": "前端二组",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "entity": "group_id",
+                        "value": "前端二组"
+                    }
+                ]
+            },
+            {
+                "text": "测试组",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "测试组"
+                    }
+                ]
+            },
+            {
+                "text": "产品实施部",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "entity": "group_id",
+                        "value": "产品实施部"
+                    }
+                ]
+            },
+            {
+                "text": "chemix",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "entity": "group_id",
+                        "value": "chemix"
+                    }
+                ]
+            },
+            {
+                "text": "运营部",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "运营部"
+                    }
+                ]
+            },
+            {
+                "text": "销售部",
+                "intent": "group/detail",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "销售部"
+                    }
+                ]
+            },
+            {
+                "text": "产品部的成员",
+                "intent": "group/member",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "产品部"
+                    }
+                ]
+            },
+            {
+                "text": "产品部的同事",
+                "intent": "group/member",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "产品部"
+                    }
+                ]
+            },
+            {
+                "text": "产品部都有谁",
+                "intent": "group/member",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "产品部"
+                    }
+                ]
+            },
+            {
+                "text": "产品部有哪些人",
+                "intent": "group/member",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "产品部"
+                    }
+                ]
+            },
+            {
+                "text": "研发部有哪些人",
+                "intent": "group/member",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "研发部"
+                    }
+                ]
+            },
+            {
+                "text": "研发部的同事",
+                "intent": "group/member",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "研发部"
+                    }
+                ]
+            },
+            {
+                "text": "历史动态",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "最近的情况",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "最近动态",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "任务动态",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "项目动态",
+                "intent": "history/list",
+                "entities": []
+            },
+            {
+                "text": "肖友的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "李弦的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "看看肖友的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "看看李弦的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "看看向颖的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "向颖"
+                    }
+                ]
+            },
+            {
+                "text": "看看张吉峰的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 5,
+                        "entity": "user_id",
+                        "value": "张吉峰"
+                    }
+                ]
+            },
+            {
+                "text": "李弦的待办事项",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "产品部的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "产品部"
+                    }
+                ]
+            },
+            {
+                "text": "销售部的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "销售部"
+                    }
+                ]
+            },
+            {
+                "text": "后台研发组的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "entity": "group_id",
+                        "value": "后台研发组"
+                    }
+                ]
+            },
+            {
+                "text": "行政部的任务",
+                "intent": "job/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "行政部"
+                    }
+                ]
+            },
+            {
+                "text": "杨勇的文件",
+                "intent": "file/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "杨勇"
+                    }
+                ]
+            },
+            {
+                "text": "张吉峰的文件",
+                "intent": "file/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "张吉峰"
+                    }
+                ]
+            },
+            {
+                "text": "李弦的文件",
+                "intent": "file/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 2,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "销售部的文件",
+                "intent": "file/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "销售部"
+                    }
+                ]
+            },
+            {
+                "text": "产品部的文件",
+                "intent": "file/list",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "entity": "group_id",
+                        "value": "产品部"
+                    }
+                ]
+            },
+            {
+                "text": "给舒超发消息",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "告诉舒超下午两点开会",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    },
+                    {
+                        "start": 4,
+                        "end": 10,
+                        "entity": "text",
+                        "value": "下午两点开会"
+                    }
+                ]
+            },
+            {
+                "text": "告诉张吉峰下午两点开会",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 5,
+                        "entity": "user_id",
+                        "value": "张吉峰"
+                    },
+                    {
+                        "start": 5,
+                        "end": 11,
+                        "entity": "text",
+                        "value": "下午两点开会"
+                    }
+                ]
+            },
+            {
+                "text": "给舒超发私密消息",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "舒超发"
+                    },
+                    {
+                        "start": 4,
+                        "end": 6,
+                        "entity": "flag",
+                        "value": "私密"
+                    }
+                ]
+            },
+            {
+                "text": "给舒超说今天晚上吃火锅",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    },
+                    {
+                        "start": 4,
+                        "end": 11,
+                        "entity": "text",
+                        "value": "今天晚上吃火锅"
+                    }
+                ]
+            },
+            {
+                "text": "打电话给张吉峰",
+                "intent": "call/user",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 7,
+                        "entity": "user_id",
+                        "value": "张吉峰"
+                    }
+                ]
+            },
+            {
+                "text": "打电话给舒超",
+                "intent": "call/user",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "打电话给李弦",
+                "intent": "call/user",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "打电话给邓羽浩",
+                "intent": "call/user",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 7,
+                        "entity": "user_id",
+                        "value": "邓羽浩"
+                    }
+                ]
+            },
+            {
+                "text": "给张吉峰建个任务",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "张吉峰"
+                    }
+                ]
+            },
+            {
+                "text": "给舒超建个任务",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "给舒超打电话",
+                "intent": "call/user",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "给李弦打电话",
+                "intent": "call/user",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "李弦"
+                    }
+                ]
+            },
+            {
+                "text": "给张吉峰打电话",
+                "intent": "call/user",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "张吉峰"
+                    }
+                ]
+            },
+            {
+                "text": "打电话给shawn",
+                "intent": "call/user",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 9,
+                        "entity": "user_id",
+                        "value": "shawn"
+                    }
+                ]
+            },
+            {
+                "text": "给舒超发个消息",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "给钱小龙发个信息",
+                "intent": "msg/create",
+                "entities": []
+            },
+            {
+                "text": "发信息给舒超",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "和舒超聊天",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "舒超"
+                    }
+                ]
+            },
+            {
+                "text": "发消息给肖友就说ok",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "告诉肖友就说ok",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 4,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "发消息给肖友说好的",
+                "intent": "msg/create",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 6,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "新建自定义申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 7,
+                        "entity": "apply_id",
+                        "value": "自定义申请"
+                    }
+                ]
+            },
+            {
+                "text": "新建通用出差申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 8,
+                        "entity": "apply_id",
+                        "value": "通用出差申请"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我明天下午三点开会",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 11,
+                        "entity": "text",
+                        "value": "明天下午三点开会"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我完成项目建议书",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 10,
+                        "entity": "text",
+                        "value": "完成项目建议书"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我购买鼠标",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 7,
+                        "entity": "text",
+                        "value": "购买鼠标"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我和所有的人面谈",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 10,
+                        "entity": "text",
+                        "value": "和所有的人面谈"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我买生日礼物",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 8,
+                        "entity": "text",
+                        "value": "买生日礼物"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我一起来一趟",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 8,
+                        "entity": "text",
+                        "value": "一起来一趟"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我所有的事情",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 8,
+                        "entity": "text",
+                        "value": "所有的事情"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我买电影票",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 7,
+                        "entity": "text",
+                        "value": "买电影票"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我到到凯嫂扥家",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 9,
+                        "entity": "text",
+                        "value": "到到凯嫂扥家"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我下周要开例会",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 9,
+                        "entity": "text",
+                        "value": "下周要开例会"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我出差北京",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 7,
+                        "entity": "text",
+                        "value": "出差北京"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我dkdkd",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 8,
+                        "entity": "text",
+                        "value": "dkdkd"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我39393993",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 11,
+                        "entity": "text",
+                        "value": "39393993"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我33夸夸夸嗲松岛枫",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 12,
+                        "entity": "text",
+                        "value": "33夸夸夸嗲松岛枫"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我跨麦兜兜",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 7,
+                        "entity": "text",
+                        "value": "跨麦兜兜"
+                    }
+                ]
+            },
+            {
+                "text": "给肖友建个任务",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "给肖友建个待办事项",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 1,
+                        "end": 3,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "建个任务给肖友",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 7,
+                        "entity": "user_id",
+                        "value": "肖友"
+                    }
+                ]
+            },
+            {
+                "text": "提醒我后天要吃饭",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 3,
+                        "end": 8,
+                        "entity": "text",
+                        "value": "后天要吃饭"
+                    }
+                ]
+            },
+            {
+                "text": "建个任务准备会议材料",
+                "intent": "task/create",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 10,
+                        "entity": "text",
+                        "value": "准备会议材料"
+                    }
+                ]
+            },
+            {
+                "text": "新建通用请假申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 8,
+                        "entity": "apply_id",
+                        "value": "通用请假申请"
+                    }
+                ]
+            },
+            {
+                "text": "新建道格腾报销流程",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 17,
+                        "entity": "apply_id",
+                        "value": "道格腾报销流程"
+                    }
+                ]
+            },
+            {
+                "text": "新建道格腾报销流程申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 21,
+                        "entity": "apply_id",
+                        "value": "道格腾报销流程申请"
+                    }
+                ]
+            },
+            {
+                "text": "新增通用出差申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 15,
+                        "entity": "apply_id",
+                        "value": "出差申请"
+                    }
+                ]
+            },
+            {
+                "text": "新建自定义申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 13,
+                        "entity": "apply_id",
+                        "value": "自定义申请"
+                    }
+                ]
+            },
+            {
+                "text": "新建通用加班申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 8,
+                        "entity": "apply_id",
+                        "value": "加班申请"
+                    }
+                ]
+            },
+            {
+                "text": "新建氪米报销",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 6,
+                        "entity": "apply_id",
+                        "value": "氪米报销"
+                    }
+                ]
+            },
+            {
+                "text": "新建加班申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 6,
+                        "entity": "apply_id",
+                        "value": "加班申请"
+                    }
+                ]
+            },
+            {
+                "text": "新建通用外勤申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 8,
+                        "entity": "apply_id",
+                        "value": "通用外勤申请"
+                    }
+                ]
+            },
+            {
+                "text": "新建通用报销申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 8,
+                        "entity": "apply_id",
+                        "value": "通用报销申请"
+                    }
+                ]
+            },
+            {
+                "text": "新建通用采购申请",
+                "intent": "shenpi/create",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 8,
+                        "entity": "apply_id",
+                        "value": "通用采购申请"
+                    }
+                ]
+            },
+            {
+                "text": "不是会退出登陆，只是说用户再发消息，就不会流转到你那里去了",
+                "intent": "msg/create",
+                "entities": []
+            }
+        ]
+    }
+}
