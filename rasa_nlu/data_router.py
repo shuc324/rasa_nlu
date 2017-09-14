@@ -189,18 +189,14 @@ class DataRouter(object):
         return self.emulator.normalise_request_json(data)
 
     def parse(self, data):
-        #to support load model by company id
-        logger.info(data)
-        if 'c' in data:
-            self.config['server_model_dirs'] = data['c']
-            self.model_store = self.__create_model_store()
-
         alias = data.get("model") or self.DEFAULT_MODEL_NAME
         if alias not in self.model_store:
             try:
                 self.model_store[alias] = self.__interpreter_for_model(model_path=alias)
             except Exception as e:
-                raise InvalidModelError("No model found with alias '{}'. Error: {}".format(alias, e))
+                alias = self.DEFAULT_MODEL_NAME
+                logger.info("No model found with alias '{}'. Error: {}".format(alias, e))
+                #raise InvalidModelError("No model found with alias '{}'. Error: {}".format(alias, e))
 
         model = self.model_store[alias]
         response = model.parse(data['text'], data.get('time', None))
