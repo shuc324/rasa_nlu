@@ -191,7 +191,6 @@ class DataRouter(object):
 
     def parse(self, data):
         #to support load model by company id
-        logger.info(data)
         if 'c' in data:
             self.config['server_model_dirs'] = data['c']
             self.model_store = self.__create_model_store()
