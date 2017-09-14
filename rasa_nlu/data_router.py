@@ -119,6 +119,8 @@ class DataRouter(object):
         else:
             model_dict = self.config.server_model_dirs
 
+        logger.info('+++++++++++++')
+        logger.info(model_dict)
         model_store = {}
 
         for alias, model_path in list(model_dict.items()):
