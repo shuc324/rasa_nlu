@@ -119,8 +119,6 @@ class DataRouter(object):
         else:
             model_dict = self.config.server_model_dirs
 
-        logger.info('+++++++++++++')
-        logger.info(self.config)
         logger.info(model_dict)
         model_store = {}
 
@@ -192,6 +190,11 @@ class DataRouter(object):
         return self.emulator.normalise_request_json(data)
 
     def parse(self, data):
+        #to support load model by company id
+        if 'c' in data:
+            self.config['model'] = data['c']
+            self.model_store = self.__create_model_store()
+
         alias = data.get("model") or self.DEFAULT_MODEL_NAME
         if alias not in self.model_store:
             try:
