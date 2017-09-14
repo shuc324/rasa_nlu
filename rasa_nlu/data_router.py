@@ -120,6 +120,7 @@ class DataRouter(object):
             model_dict = self.config.server_model_dirs
 
         logger.info('+++++++++++++')
+        logger.info(self.config)
         logger.info(model_dict)
         model_store = {}
 
